@@ -58,7 +58,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To Do list: interactive list] <a name="about-project"></a>
+# 📖 [Leaderboard: setup project] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
