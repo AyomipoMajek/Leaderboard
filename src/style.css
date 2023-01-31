@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Salsa', cursive;
+}
+
+.all {
+  border: solid;
+  margin: 20px;
+}
+
+.maintitle {
+  margin: 10px;
+}
+
+.leaderboard {
+  display: flex;
+}
+
+.refreshBtn {
+  border: solid;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  width: 25%;
+  line-height: 20px;
+  background: #fff;
+  box-shadow: 3px 3px 2px #000;
+}
+
+.scores {
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.leaderboardscores {
+  padding-left: 20px;
+  border: solid;
+  margin-right: 80px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.score {
+  list-style-type: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+}
+
+.formtitle {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#name,
+#score {
+  font-weight: 600;
+  font-style: italic;
+  border: solid;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  width: 60%;
+  line-height: 20px;
+}
+
+.submitBtn {
+  border: solid;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  width: 25%;
+  line-height: 20px;
+  background: #fff;
+  box-shadow: 3px 3px 2px #000;
+}
