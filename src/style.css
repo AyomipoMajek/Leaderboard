@@ -40,6 +40,10 @@ body {
   margin-bottom: 60px;
 }
 
+.score {
+  list-style-type: none;
+}
+
 form {
   display: flex;
   flex-direction: column;

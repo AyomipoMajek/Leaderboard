@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[To Do list: interactive list]** is a JavaScript solo project where scores of different people from a competition can be recorded
+**[Leaderboard: setup project]** is a solo project where scores of different people from a competition can be recorded
 
 ## 🛠 Built With <a name="VS Code"></a>
 
@@ -127,7 +127,7 @@ Clone this repository to your desired folder:
 
 3.Open the file in your code editor
 
-4.Right click on the html code nd click open live server
+4.open your terminal and run npm start
 
 5.Right click on the live server page and click inspect.
 
