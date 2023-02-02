@@ -58,11 +58,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard: setup project] <a name="about-project"></a>
+# 📖 [Leaderboard: hit the API] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Leaderboard: setup project]** is a solo project where scores of different people from a competition can be recorded
+**[Leaderboard: hit the API]** is a solo project where scores of different people from a competition can be recorded
 
 ## 🛠 Built With <a name="VS Code"></a>
 

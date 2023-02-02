@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-globals */
 import add from './addname.js';
 
 const theForm = () => {
@@ -13,7 +12,7 @@ const theForm = () => {
   });
   const refresh = document.querySelector('.refreshBtn');
   refresh.addEventListener('click', () => {
-    location.reload();
+    window.location.reload();
   });
 };
 
