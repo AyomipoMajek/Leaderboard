@@ -169,6 +169,7 @@ form {
     width: 10%;
     height: 4vh;
     margin-top: 20px;
+    margin-left: 17vw;
   }
 
   .leaderboardscores {
@@ -199,5 +200,6 @@ form {
     height: 4vh;
     margin-top: 20px;
     margin-bottom: 100px;
+    margin-left: 20vw;
   }
 }
