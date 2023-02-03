@@ -12,25 +12,20 @@
       <div class="mainarea">
         <h1 class="maintitle">Leaderboard</h1>
       </div>
-      <div class="leaderboard">
-        <h3 class="scores">Recent scores</h3>
-        <button class="refreshBtn">Refresh</button>
-      </div>
-      <ul class="leaderboardscores">
-          <li class="score">Name:100</li>
-          <li class="score">Name:69</li>
-          <li class="score">Name:107</li>
-          <li class="score">Name:93</li>
-          <li class="score">Name:40</li>
-          <li class="score">Name:230</li>
-          <li class="score">Name:145</li>
-      </ul>
-      <form>
-        <h3 class="formtitle">Add your score</h3>
-        <input type="text" id="name" placeholder="Your name" required>
-        <input type="number" id="score" placeholder="Your score" required>
-        <button class="submitBtn" type="button">Submit</button>
-      </form>
+      <section class="scoresform">
+        <div class="leaderboard">
+          <h3 class="scores">Recent scores</h3>
+          <button class="refreshBtn">Refresh</button>
+        </div>
+        <ul class="leaderboardscores">
+        </ul>
+        <form id="formdetails">
+          <h3 class="formtitle">Add your score</h3>
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="number" id="score" placeholder="Your score" required>
+          <button class="submitBtn" type="submit">Submit</button>
+        </form>
+      </section> 
       </div>
     </main>
   </body>

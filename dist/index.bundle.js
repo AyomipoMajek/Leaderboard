@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: rgb(255, 255, 255);\r\n  font-family: 'Salsa', cursive;\r\n}\r\n\r\n.all {\r\n  border: solid;\r\n  margin: 20px;\r\n}\r\n\r\n.maintitle {\r\n  margin: 10px;\r\n}\r\n\r\n.leaderboard {\r\n  display: flex;\r\n}\r\n\r\n.refreshBtn {\r\n  border: solid;\r\n  margin-top: 20px;\r\n  margin-bottom: 25px;\r\n  width: 25%;\r\n  line-height: 20px;\r\n  background: #fff;\r\n  box-shadow: 3px 3px 2px #000;\r\n}\r\n\r\n.scores {\r\n  padding-left: 20px;\r\n  padding-right: 10px;\r\n  font-size: 20px;\r\n}\r\n\r\n.leaderboardscores {\r\n  padding-left: 20px;\r\n  border: solid;\r\n  margin-right: 80px;\r\n  margin-left: 20px;\r\n  margin-bottom: 60px;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  line-height: 10px;\r\n}\r\n\r\n.formtitle {\r\n  padding-left: 20px;\r\n  font-size: 20px;\r\n  font-weight: 600;\r\n}\r\n\r\n#name,\r\n#score {\r\n  font-weight: 600;\r\n  font-style: italic;\r\n  border: solid;\r\n  margin-left: 20px;\r\n  margin-bottom: 15px;\r\n  border-radius: 3px;\r\n  width: 60%;\r\n  line-height: 20px;\r\n}\r\n\r\n.submitBtn {\r\n  border: solid;\r\n  margin-left: 20px;\r\n  margin-bottom: 15px;\r\n  width: 25%;\r\n  line-height: 20px;\r\n  background: #fff;\r\n  box-shadow: 3px 3px 2px #000;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,oCAAoC;EACpC,6BAA6B;AAC/B;;AAEA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,mBAAmB;EACnB,UAAU;EACV,iBAAiB;EACjB,gBAAgB;EAChB,4BAA4B;AAC9B;;AAEA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;AACjB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,kBAAkB;EAClB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,iBAAiB;AACnB;;AAEA;EACE,kBAAkB;EAClB,eAAe;EACf,gBAAgB;AAClB;;AAEA;;EAEE,gBAAgB;EAChB,kBAAkB;EAClB,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,kBAAkB;EAClB,UAAU;EACV,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,UAAU;EACV,iBAAiB;EACjB,gBAAgB;EAChB,4BAA4B;AAC9B","sourcesContent":["body {\r\n  background-color: rgb(255, 255, 255);\r\n  font-family: 'Salsa', cursive;\r\n}\r\n\r\n.all {\r\n  border: solid;\r\n  margin: 20px;\r\n}\r\n\r\n.maintitle {\r\n  margin: 10px;\r\n}\r\n\r\n.leaderboard {\r\n  display: flex;\r\n}\r\n\r\n.refreshBtn {\r\n  border: solid;\r\n  margin-top: 20px;\r\n  margin-bottom: 25px;\r\n  width: 25%;\r\n  line-height: 20px;\r\n  background: #fff;\r\n  box-shadow: 3px 3px 2px #000;\r\n}\r\n\r\n.scores {\r\n  padding-left: 20px;\r\n  padding-right: 10px;\r\n  font-size: 20px;\r\n}\r\n\r\n.leaderboardscores {\r\n  padding-left: 20px;\r\n  border: solid;\r\n  margin-right: 80px;\r\n  margin-left: 20px;\r\n  margin-bottom: 60px;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  line-height: 10px;\r\n}\r\n\r\n.formtitle {\r\n  padding-left: 20px;\r\n  font-size: 20px;\r\n  font-weight: 600;\r\n}\r\n\r\n#name,\r\n#score {\r\n  font-weight: 600;\r\n  font-style: italic;\r\n  border: solid;\r\n  margin-left: 20px;\r\n  margin-bottom: 15px;\r\n  border-radius: 3px;\r\n  width: 60%;\r\n  line-height: 20px;\r\n}\r\n\r\n.submitBtn {\r\n  border: solid;\r\n  margin-left: 20px;\r\n  margin-bottom: 15px;\r\n  width: 25%;\r\n  line-height: 20px;\r\n  background: #fff;\r\n  box-shadow: 3px 3px 2px #000;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  background-color: rgb(255, 255, 255);\r\n  font-family: 'Salsa', cursive;\r\n}\r\n\r\n.all {\r\n  border: solid;\r\n  margin: 20px;\r\n}\r\n\r\n.maintitle {\r\n  margin: 10px;\r\n}\r\n\r\n.leaderboard {\r\n  display: flex;\r\n}\r\n\r\n.refreshBtn {\r\n  border: solid;\r\n  margin-top: 20px;\r\n  margin-bottom: 25px;\r\n  width: 25%;\r\n  line-height: 20px;\r\n  background: #fff;\r\n  box-shadow: 3px 3px 2px #000;\r\n}\r\n\r\n.scores {\r\n  padding-left: 20px;\r\n  padding-right: 10px;\r\n  font-size: 20px;\r\n}\r\n\r\n.leaderboardscores {\r\n  padding-left: 20px;\r\n  border: solid;\r\n  margin-right: 80px;\r\n  margin-left: 20px;\r\n  margin-bottom: 60px;\r\n}\r\n\r\nul {\r\n  list-style-type: none;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  line-height: 10px;\r\n}\r\n\r\n.formtitle {\r\n  padding-left: 20px;\r\n  font-size: 20px;\r\n  font-weight: 600;\r\n}\r\n\r\n#name,\r\n#score {\r\n  font-weight: 600;\r\n  font-style: italic;\r\n  border: solid;\r\n  margin-left: 20px;\r\n  margin-bottom: 15px;\r\n  border-radius: 3px;\r\n  width: 60%;\r\n  line-height: 20px;\r\n}\r\n\r\n.submitBtn {\r\n  border: solid;\r\n  margin-left: 20px;\r\n  margin-bottom: 15px;\r\n  width: 25%;\r\n  line-height: 20px;\r\n  background: #fff;\r\n  box-shadow: 3px 3px 2px #000;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,oCAAoC;EACpC,6BAA6B;AAC/B;;AAEA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,mBAAmB;EACnB,UAAU;EACV,iBAAiB;EACjB,gBAAgB;EAChB,4BAA4B;AAC9B;;AAEA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;AACjB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,kBAAkB;EAClB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,iBAAiB;AACnB;;AAEA;EACE,kBAAkB;EAClB,eAAe;EACf,gBAAgB;AAClB;;AAEA;;EAEE,gBAAgB;EAChB,kBAAkB;EAClB,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,kBAAkB;EAClB,UAAU;EACV,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,UAAU;EACV,iBAAiB;EACjB,gBAAgB;EAChB,4BAA4B;AAC9B","sourcesContent":["body {\r\n  background-color: rgb(255, 255, 255);\r\n  font-family: 'Salsa', cursive;\r\n}\r\n\r\n.all {\r\n  border: solid;\r\n  margin: 20px;\r\n}\r\n\r\n.maintitle {\r\n  margin: 10px;\r\n}\r\n\r\n.leaderboard {\r\n  display: flex;\r\n}\r\n\r\n.refreshBtn {\r\n  border: solid;\r\n  margin-top: 20px;\r\n  margin-bottom: 25px;\r\n  width: 25%;\r\n  line-height: 20px;\r\n  background: #fff;\r\n  box-shadow: 3px 3px 2px #000;\r\n}\r\n\r\n.scores {\r\n  padding-left: 20px;\r\n  padding-right: 10px;\r\n  font-size: 20px;\r\n}\r\n\r\n.leaderboardscores {\r\n  padding-left: 20px;\r\n  border: solid;\r\n  margin-right: 80px;\r\n  margin-left: 20px;\r\n  margin-bottom: 60px;\r\n}\r\n\r\nul {\r\n  list-style-type: none;\r\n}\r\n\r\nform {\r\n  display: flex;\r\n  flex-direction: column;\r\n  line-height: 10px;\r\n}\r\n\r\n.formtitle {\r\n  padding-left: 20px;\r\n  font-size: 20px;\r\n  font-weight: 600;\r\n}\r\n\r\n#name,\r\n#score {\r\n  font-weight: 600;\r\n  font-style: italic;\r\n  border: solid;\r\n  margin-left: 20px;\r\n  margin-bottom: 15px;\r\n  border-radius: 3px;\r\n  width: 60%;\r\n  line-height: 20px;\r\n}\r\n\r\n.submitBtn {\r\n  border: solid;\r\n  margin-left: 20px;\r\n  margin-bottom: 15px;\r\n  width: 25%;\r\n  line-height: 20px;\r\n  background: #fff;\r\n  box-shadow: 3px 3px 2px #000;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -505,6 +505,97 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/modules/addname.js":
+/*!********************************!*\
+  !*** ./src/modules/addname.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const add = (name, score) => {
+  const grow = async () => {
+    const give = await fetch ('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/v2m1w39qEU75TuLKTOEo/scores/',
+    {
+      method: 'post',
+      body: JSON.stringify({ user: name, score: score}),
+      headers: { 'Content-type': 'application/json' },
+    })
+  }
+  grow()
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (add);
+
+/***/ }),
+
+/***/ "./src/modules/collectscores.js":
+/*!**************************************!*\
+  !*** ./src/modules/collectscores.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _addname_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addname.js */ "./src/modules/addname.js");
+
+
+const theForm = () => {
+  const form = document.getElementById("formdetails");
+  const theName = document.getElementById("name");
+  const theScore = document.getElementById("score");
+  form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  (0,_addname_js__WEBPACK_IMPORTED_MODULE_0__["default"])(theName.value, theScore.value)
+  theName.value = "", theScore.value = ""
+})
+const refresh = document.querySelector(".refreshBtn")
+refresh.addEventListener('click', () => {
+  location.reload();
+});
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (theForm);
+
+/***/ }),
+
+/***/ "./src/modules/print.js":
+/*!******************************!*\
+  !*** ./src/modules/print.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const print = () => {
+  const wrapper = document.querySelector('.leaderboardscores');
+  const template = (arr) => {
+    const list = document.createElement('li');
+    list.innerText = `${arr.user}: ${arr.score}`;
+    wrapper.appendChild(list);
+  };
+  const getResponse = async () => {
+    const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/v2m1w39qEU75TuLKTOEo/scores/');
+    const preData = await response.json();
+    return preData;
+  };
+  getResponse().then((raw) => {
+    const dat = (raw.result);
+    const data = dat.sort((a, b) => b.score - a.score);
+    data.map((each) => (
+      template(each)
+    ));
+  });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (print);
+
 /***/ })
 
 /******/ 	});
@@ -588,7 +679,14 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var _modules_collectscores_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/collectscores.js */ "./src/modules/collectscores.js");
+/* harmony import */ var _modules_print_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/print.js */ "./src/modules/print.js");
 
+
+
+
+(0,_modules_collectscores_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
+(0,_modules_print_js__WEBPACK_IMPORTED_MODULE_2__["default"])();
 })();
 
 /******/ })()

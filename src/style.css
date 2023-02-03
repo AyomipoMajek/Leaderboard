@@ -6,10 +6,16 @@ body {
 .all {
   border: solid;
   margin: 20px;
+  background-color: rgb(65, 117, 147);
 }
 
 .maintitle {
-  margin: 10px;
+  text-align: center;
+  border: solid;
+  margin: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 3px 3px 2px rgb(11, 11, 11);
 }
 
 .leaderboard {
@@ -22,8 +28,33 @@ body {
   margin-bottom: 25px;
   width: 25%;
   line-height: 20px;
+  border-radius: 5px;
   background: #fff;
   box-shadow: 3px 3px 2px #000;
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  20% {
+    transform: rotateZ(10deg);
+  }
+
+  25% {
+    transform: rotateZ(0);
+  }
+
+  30% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
 }
 
 .scores {
@@ -40,8 +71,12 @@ body {
   margin-bottom: 60px;
 }
 
-.score {
+ul {
   list-style-type: none;
+  height: 200px;
+  overflow-y: scroll;
+  border-radius: 5px;
+  background-color: rgb(225, 220, 220);
 }
 
 form {
@@ -54,6 +89,13 @@ form {
   padding-left: 20px;
   font-size: 20px;
   font-weight: 600;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 #name,
@@ -73,7 +115,91 @@ form {
   margin-left: 20px;
   margin-bottom: 15px;
   width: 25%;
+  border-radius: 5px;
   line-height: 20px;
   background: #fff;
   box-shadow: 3px 3px 2px #000;
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+
+  20% {
+    transform: rotateZ(10deg);
+  }
+
+  25% {
+    transform: rotateZ(0);
+  }
+
+  30% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .maintitle {
+    font-size: 40px;
+    text-align: left;
+    padding: 25px;
+    width: 16.5%;
+  }
+
+  .scores {
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+
+  .refreshBtn {
+    font-size: 20px;
+    width: 10%;
+    height: 4vh;
+    margin-top: 20px;
+    margin-left: 17vw;
+  }
+
+  .leaderboardscores {
+    float: left;
+    width: 45%;
+    margin-bottom: 50px;
+    height: 250px;
+  }
+
+  ul li {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .formtitle {
+    font-size: 30px;
+  }
+
+  #name,
+  #score {
+    font-size: 18px;
+    padding: 7px;
+  }
+
+  .submitBtn {
+    font-size: 20px;
+    width: 20%;
+    height: 4vh;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 20vw;
+  }
 }
