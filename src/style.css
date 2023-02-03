@@ -9,7 +9,11 @@ body {
 }
 
 .maintitle {
-  margin: 10px;
+  text-align: center;
+  border: solid;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px rgb(96, 95, 95);
 }
 
 .leaderboard {
@@ -24,6 +28,31 @@ body {
   line-height: 20px;
   background: #fff;
   box-shadow: 3px 3px 2px #000;
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ('-15deg');
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(0);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
 }
 
 .scores {
@@ -42,6 +71,8 @@ body {
 
 ul {
   list-style-type: none;
+  height: 200px;
+  overflow-y: scroll;
 }
 
 form {
@@ -54,6 +85,19 @@ form {
   padding-left: 20px;
   font-size: 20px;
   font-weight: 600;
+  animation: float 3s ease-in-out infinite;
+}
+
+  @keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 #name,
@@ -76,4 +120,29 @@ form {
   line-height: 20px;
   background: #fff;
   box-shadow: 3px 3px 2px #000;
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ('-15deg');
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(0);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
 }
