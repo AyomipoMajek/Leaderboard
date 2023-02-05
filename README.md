@@ -83,8 +83,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link]( https://ayomipomajek.github.io/Leaderboard/dist/)
 
 
