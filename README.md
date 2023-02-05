@@ -79,10 +79,16 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
+<!-- LIVE DEMO -->
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
 
+- [Live Demo Link]( https://ayomipomajek.github.io/Leaderboard/dist/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
